@@ -1,0 +1,37 @@
+.row{
+    display: flex;
+}
+.cont{
+    width: 100% ;
+    background-color: #EEEEEE;
+}
+h1{
+    color: rgb(250, 94, 94);
+    font-weight:bolder;
+}
+
+.btn-danger{
+    background-color: rgb(250, 94, 94);
+}
+.img1{
+    width: 100%;
+    height: 73%;
+}
+
+.text-center{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+@media screen and (max-width: 767px) {
+    .col-md-6 {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .text-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
